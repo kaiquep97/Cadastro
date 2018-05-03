@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cadastro.CadastroPage"
+             Title="Cadastro">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#03A9F4</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="OK" Command="{Binding OkCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+            <StackLayout Spacing="20" Margin="10">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10,60,10,0">
+                    <Entry Placeholder="Nome completo" Text="{Binding Nome}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Margin="10,20,10,0">
+                    <!--<Label Text="TELEFONE:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="Telefone" Keyboard="Telephone" Text="{Binding Telefone}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Margin="10,20,10,0">
+                    <!--<Label Text="EMAIL:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="Email" Keyboard="Email" Text="{Binding Email}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Margin="10,20,10,0">
+                    <!--<Label Text="CPF:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="CPF" Keyboard="Numeric" Text="{Binding CPF}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Margin="10,20,10,0">
+                    <!--<Label Text="RG:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="RG" Keyboard="Numeric" Text="{Binding RG}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10,20,10,0">
+                    <!--<Label Text="REGIÃO INTERESSE:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="Região de interesse" Text="{Binding Regiao}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10,20,10,0">
+                    <!--<Label Text="RENDA:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="Renda" Text="{Binding Renda}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="10,20,10,0">
+                    <!--<Label Text="COMPOSIÇÃO RENDA FAMILIAR:" VerticalTextAlignment="Center"/>-->
+                    <Entry Placeholder="Composição de Renda Familiar" Text="{Binding RendaFamiliar}" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <Button Text="OK" 
+                        Command="{Binding OkCommand}" 
+                        BackgroundColor="{StaticResource Primary}" 
+                        TextColor="White"
+                        FontSize="20"
+                        Margin="20"
+                        VerticalOptions="EndAndExpand"
+                        HeightRequest="100"/>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

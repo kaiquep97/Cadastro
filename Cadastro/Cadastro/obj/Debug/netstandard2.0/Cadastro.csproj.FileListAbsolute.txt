@@ -1,0 +1,13 @@
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\bin\Debug\netstandard2.0\Cadastro.deps.json
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\bin\Debug\netstandard2.0\Cadastro.dll
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.App.xaml.g.cs
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.CadastroPage.xaml.g.cs
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.MainPage.xaml.g.cs
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.AssemblyInfoInputs.cache
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.AssemblyInfo.cs
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\bin\Debug\netstandard2.0\Cadastro.pdb
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.dll
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.pdb
+c:\users\user\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.ListaPage.xaml.g.cs
+C:\Users\User\source\repos\Cadastro\Cadastro\Cadastro\obj\Debug\netstandard2.0\Cadastro.csprojResolveAssemblyReference.cache

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Cadastro"
+             x:Class="Cadastro.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#03A9F4</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Spacing="10">
+        <Label HeightRequest="110"
+                HorizontalOptions="FillAndExpand"
+                Text="CADASTRO"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                FontSize="40"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"/>
+        
+        <Button Margin="20,100,20,0"
+                HeightRequest="100"
+                TextColor="White"
+                Text="Cadastrar"
+                FontSize="20"
+                BackgroundColor="{StaticResource Primary}"
+                HorizontalOptions="FillAndExpand"
+                Clicked="Cadastrar_Clicked"/>
+        
+        <Button Margin="20,0,20,0"
+                HeightRequest="100"
+                TextColor="White"
+                Text="Lista dos cadastrados"
+                FontSize="20"
+                BackgroundColor="{StaticResource Primary}"
+                HorizontalOptions="FillAndExpand"
+                Clicked="Lista_Clicked"/>
+    </StackLayout>
+
+    
+</ContentPage>
