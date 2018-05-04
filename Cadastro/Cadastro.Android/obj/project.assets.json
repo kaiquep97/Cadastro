@@ -878,11 +878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro.Android\\Cadastro.Android.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro.Android\\Cadastro.Android.csproj",
       "projectName": "Cadastro.Android",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro.Android\\Cadastro.Android.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro.Android\\Cadastro.Android.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro.Android\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -899,8 +899,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj"
+            "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj"
             }
           }
         }

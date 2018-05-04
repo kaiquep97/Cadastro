@@ -24,5 +24,13 @@ namespace Cadastro
                 this.Navigation.PopAsync();
             });
         }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+
+            MessagingCenter.Unsubscribe<string>(this, "OkButton");
+            MessagingCenter.Unsubscribe<string>(this, "Mensagem");
+        }
     }
 }

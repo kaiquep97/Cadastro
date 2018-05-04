@@ -514,11 +514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj",
       "projectName": "Cadastro",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro\\Cadastro.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Cad\\Cadastro\\Cadastro\\Cadastro\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Cadastro\\Cadastro\\Cadastro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
